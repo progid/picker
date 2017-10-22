@@ -22,9 +22,8 @@ html, body {
 	border-radius: 5px;
 }
 .data-picker {
-	width: 10%;
+	width: 20%;
 	height: 30px;
-	background: red;
 	display: block;
 	text-align: center;
 }
@@ -32,18 +31,20 @@ html, body {
 	width: 20px;
 	height: 100%;
 	display: inline-block;
-	background: green;
 	position: relative;
 	vertical-align: top;
+	outline: none;
+	border: none;
+	background: transparent;
 }
 
 .data-picker .data {
 	display: inline-block;
-	background: blue;
 	height: 100%;
-	width: 40px;
+	width: 60px;
 	white-space: nowrap;
 	font-size: 0;
+	overflow: hidden;
 }
 
 .data-picker .data .item {
@@ -52,7 +53,6 @@ html, body {
 	display: inline-block;
 	font-size: 16px;
 	line-height: 2em;
-	background: rgba(0,0,0,.5);
 }
 
 .data-picker .data .item:first-child {
